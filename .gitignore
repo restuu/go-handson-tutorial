@@ -5,6 +5,11 @@
 *.so
 *.dylib
 
+# ignore all files without go ext
+**/*
+!**/*.go
+!**/
+
 # Test binary, build with `go test -c`
 *.test
 
